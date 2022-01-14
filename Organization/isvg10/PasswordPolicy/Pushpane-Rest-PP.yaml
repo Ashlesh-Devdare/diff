@@ -1,0 +1,44 @@
+---
+_links:
+  self:
+    href: "/itim/rest/passwordpolicy/ZXJnbG9iYWxpZD01ODIwODMxNDk3NTc3MjQ1NDY1LG91PXBvbGljaWVzLGVyZ2xvYmFsaWQ9MDAwMDAwMDAwMDAwMDAwMDAwMDAsb3U9aXN2ZzEwLGRjPWlzdmcxMA"
+    title: Pushpane-Rest-PP
+  erparent:
+    href: "/itim/rest/organizationcontainers/organizations/ZXJnbG9iYWxpZD0wMDAwMDAwMDAwMDAwMDAwMDAwMCxvdT1pc3ZnMTAsZGM9aXN2ZzEw"
+    title: isvg10
+_attributes:
+  erenabled: 'false'
+  erglobalid: '5820831497577245465'
+  erkeywords: Policy new
+  erscope: '1'
+  description: Rest Api creation
+  rules:
+    minLength: 5
+    maxLength: 10
+    maxSequentialCharacters: -1
+    repeatedHistoryLength: -1
+    reversedHistoryLength: -1
+    allowUserID: true
+    allowUserIDCaseInsensitive: true
+    allowUserName: true
+    allowUserNameCaseInsensitive: true
+    allowInDictionary: true
+    invalidChars: ''
+    requiredChars: ''
+    restrictedToChars: ''
+    startsWithChars: ''
+    minValidityPeriod: -1
+    maxValidityPeriod: -1
+    minDistinctCharacters: -1
+    minAlphabeticCharacters: 3
+    minDigitCharacters: -1
+    passwordComplexity: false
+  objectclass:
+  - top
+  - erPasswordPolicy
+  - erManagedItem
+  - erpolicybase
+  - erpolicyitembase
+  erpolicytarget: ALL_SERVICE
+  erpolicyitemname: Pushpane-Rest-PP
+  erparent: erglobalid=00000000000000000000,ou=isvg10,dc=isvg10

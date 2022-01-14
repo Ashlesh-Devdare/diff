@@ -1,0 +1,42 @@
+---
+_links:
+  self:
+    href: "/itim/rest/passwordpolicy/ZXJnbG9iYWxpZD04NzQ3MjIzNDQyMjc2Njg5MjEwLG91PXBvbGljaWVzLGVyZ2xvYmFsaWQ9MDAwMDAwMDAwMDAwMDAwMDAwMDAsb3U9aXN2ZzEwLGRjPWlzdmcxMA"
+    title: anirudha_winlocal_pass_policy
+  erparent:
+    href: "/itim/rest/organizationcontainers/organizations/ZXJnbG9iYWxpZD0wMDAwMDAwMDAwMDAwMDAwMDAwMCxvdT1pc3ZnMTAsZGM9aXN2ZzEw"
+    title: isvg10
+_attributes:
+  erenabled: 'false'
+  erglobalid: '8747223442276689210'
+  erscope: '2'
+  rules:
+    minLength: 1
+    maxLength: -1
+    maxSequentialCharacters: -1
+    repeatedHistoryLength: -1
+    reversedHistoryLength: -1
+    allowUserID: true
+    allowUserIDCaseInsensitive: true
+    allowUserName: true
+    allowUserNameCaseInsensitive: true
+    allowInDictionary: true
+    invalidChars: ''
+    requiredChars: ''
+    restrictedToChars: ''
+    startsWithChars: ''
+    minValidityPeriod: -1
+    maxValidityPeriod: -1
+    minDistinctCharacters: -1
+    minAlphabeticCharacters: -1
+    minDigitCharacters: -1
+    passwordComplexity: false
+  objectclass:
+  - top
+  - erPasswordPolicy
+  - erManagedItem
+  - erpolicybase
+  - erpolicyitembase
+  erpolicytarget: SPECIFIC_SERVICE; ZXJnbG9iYWxpZD04NTM2NDI0NTcwMTAwNjM3ODQ3LG91PXNlcnZpY2VzLGVyZ2xvYmFsaWQ9MDAwMDAwMDAwMDAwMDAwMDAwMDAsb3U9aXN2ZzEwLGRjPWlzdmcxMA
+  erpolicyitemname: anirudha_winlocal_pass_policy
+  erparent: erglobalid=00000000000000000000,ou=isvg10,dc=isvg10
