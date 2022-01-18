@@ -13,7 +13,7 @@ _attributes:
   erscope: '1'
   description: Rest Api creation
   rules:
-    minLength: 56
+    minLength: 1
     maxLength: 10
     maxSequentialCharacters: -1
     repeatedHistoryLength: -1
